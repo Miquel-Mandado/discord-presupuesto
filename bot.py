@@ -4,7 +4,7 @@ import os
 import csv
 import re
 
-TOKEN = "MTQ2MTgzODU1NDAxMDIyMjY5NA.Gd4ODF.lL4Sczl577VvaEWBBHT37SVfW-1otCPOZr11ws"
+TOKEN = os.getenv("DISCORD_TOKEN")
 CANAL_FACTURAS_ID = 1461115604151828691
 CSV_FILE = "facturas.csv"
 
